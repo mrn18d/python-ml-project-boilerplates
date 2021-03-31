@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "Poetry + TensorFlow + FastAPI Boilerplate"
+version = "0.1.0"
+description = "This is a boilerplate repo for someone to rapidly spin-up an application using Poetry, TensorFlow, and FastAPI."
+authors = ["Mike Nemke <mike@mktr.ai>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.63.0"
+uvicorn = "^0.13.4"
+tensorflow = "^2.4.1"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.7.4"
+flake8 = "^3.9.0"
+black = "^20.8b1"
+pytest = "^6.2.2"
+mypy = "^0.812"
+bandit = "^1.7.0"
+isort = "^5.8.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
